@@ -1,0 +1,15 @@
+Titulos
+|_________________________________________________________________________|
+
+moneyhub
+moneypub
+mymoney
+
+------------------------------------------------------------------------------------------------------
+Tabla que se actualizan mediante botones, y que los asociados solo puedan vender, hacer facturas
+
+roles: empleado: solo puede vender
+administrador: controlar el stock
+super administrador: cambiar y agregar nuevas cosa, asignar roles, resetear contraseñ (admin)
+servicio de mensajeria interno
+crear y editar usuario

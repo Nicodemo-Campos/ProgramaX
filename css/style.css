@@ -14,8 +14,9 @@
    "header"
    "servicio"
    "publicidad"
+   "servicioTecnico"
    "footer";
-   grid-template-rows: auto 25vh 25vh auto; 
+   grid-template-rows: auto auto auto auto auto; 
    grid-template-columns: auto;
 }
 .border {
@@ -49,10 +50,16 @@ a:link, header a:visited, header a:active {
 
 /* Seccion servicios */
 section#servicios {
-   grid-area: servicio;     
+   grid-area: servicio;
 }
+
+img {
+   width: 100px;
+   height: 150;
+}
+
 section#publicidad {
-   grid-area: publicidad;     
+   grid-area: publicidad;
 }
 nav {
    grid-area: nav;
